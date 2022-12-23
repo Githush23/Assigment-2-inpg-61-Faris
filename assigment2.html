@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css2.css" />
+    <title>Assigment JavaScript</title>
+    
+  </head>
+  <header>
+    <div id="menu-bar">
+      <a class="menu-items" href="#home">HOME</a>
+      <a class="menu-items" href="#produk">PRDOUCT</a>
+      <a class="menu-items" href="#gallery">GALLERY</a>
+      <a class="menu-items" href="#blog">BLOG</a>
+      <a class="menu-items" href="#inventory">INVENTORY</a>
+    </div>
+  </header>
+  <body>
+    <div id="profile-container">
+      <div class="title-content">
+        <img
+          src="./loginuser-img.png"
+          alt="loginuser"
+          height="180px"
+          weight="180px"
+        />
+        <div>
+          <h1 class="format-judul" id="namaAnda">Nama Anda</h1>
+        <p class="format-subjudul" id="role-anda">Frond End Designer</p>
+          <div class="button-title">
+            <a class="format alt-button" href="#edit">Edit</a>
+            <a class="format-button" href="#resume">Resume</a>
+          </div>
+        </div>
+        <div class="paragraf1">
+          <b><p>Availability</p>
+          <p>Usia</p>
+          <p>Lokasi</p>
+          <p>Pengalaman</p>
+          <p>Email</p></b>
+        </div>
+        <div class="paragraf2">
+          <p id="hasilAvailability">Full Time</p>
+          <p id="hasilUsia">21</p>
+          <p id="hasilLokasi">Jakarta</p>
+          <p id="hasilPengalaman">2 Tahun</p>
+          <p id="hasilEmail">developer@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="textform">
+      <form class="lname">
+        <label for="fname">Nama</label><br />
+        <input type="text" class="lname" id="nama"  /><br />
+        <label for="lname">Role</label><br />
+        <input type="text" class="lname" id="role"  /><br />
+        <label for="fname">Availability</label><br />
+        <input type="text" class="lname" id="availability"   /><br />
+        <label for="lname">Age</label><br />
+        <input type="text" class="lname" id="age"  /><br />
+        <label for="lname">Lokasi</label><br />
+        <input type="text" class="lname" id="lokasi"   /><br />
+        <label for="lname">Year Experience</label><br />
+        <input type="text" class="lname" id="years"  /><br />
+        <label for="lname">Email</label><br />
+        <input type="text" class="lname" id="email"  /><br />
+        <input id="Submit" value="Submit" onclick="kirimData()">
+        <!-- <input class="btn-submit" id="submit" type="submit" value="Submit" /> -->
+      </form>
+    </div>
+    <script src="assigment2.js" ></script>
+
+  </body>
+</html>
